@@ -14,7 +14,7 @@ export default function Whatsapp() {
         >
           <div>
             <a
-              href="https://api.whatsapp.com/send?phone=56994092777"
+              href="https://api.whatsapp.com/send?phone=56944083761"
               target="_SEJ"
               rel="noreferrer"
             >

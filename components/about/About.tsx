@@ -1,10 +1,10 @@
 
 const people = [
   {
-    name: 'Sip Colchagua',
+    name: 'Buena Ventura',
     role: 'Cual es nuetro Rol',
     imageUrl:
-      '/img/logoSipBlack.png',
+      '/img/vino1.jpg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     twitterUrl: '#',
     linkedinUrl: '#',
@@ -18,12 +18,9 @@ export default function About() {
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Sobre Nosotros</h2>
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">Sobre nuestros Vinos</h2>
             <p className="text-xl text-gray-500">
-             SIP COLCHAGUA está compuesto por un equipo de profesionales con amplio conocimiento en la fabricación 
-             e instalación de paneles SIP, orientada a entregar soluciones eficientes a los requerimientos de construcción 
-             habitacional e industrial de sus clientes, con la fabricación de paneles aislantes, estructurales y térmicos (SIP)
-              para muros, losas y techos; utilizando para esto, materiales con la calidad requerida por nuestros procesos productivos.
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum pariatur voluptas molestiae maxime consectetur sint praesentium perspiciatis quidem! Modi deserunt iure distinctio corporis temporibus iste.
             </p>
           </div>
           <div className="lg:col-span-2">
@@ -46,7 +43,7 @@ export default function About() {
                         <div className="text-lg">
                           <p className="text-gray-500">{person.bio}</p>
                         </div>
-                        <ul role="list" className="flex space-x-5">
+                        {/* <ul role="list" className="flex space-x-5">
                           <li>
                             <a href={person.twitterUrl} className="text-gray-400 hover:text-gray-500">
                               <span className="sr-only">Twitter</span>
@@ -67,7 +64,7 @@ export default function About() {
                               </svg>
                             </a>
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>

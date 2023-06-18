@@ -19,7 +19,7 @@ export default function Whatsapp() {
               rel="noreferrer"
             >
               <Image
-                src="/img/whatsappLogoWhite.png"
+                src="/img/btnWhatsapp.png"
                 priority
                 alt="..."
                 width="50"

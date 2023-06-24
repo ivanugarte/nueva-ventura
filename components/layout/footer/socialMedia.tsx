@@ -25,7 +25,7 @@ export const navigation = {
     {
       name: "Instagram",
       href: "https://www.instagram.com/buenaventura_2022/?hl=es-la",
-      icon: (props) => (
+      icon: (props: any) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
             fillRule="evenodd"

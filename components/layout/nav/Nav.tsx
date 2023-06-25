@@ -22,14 +22,14 @@ export default function Nav() {
                   <div className="navLogo flex flex-shrink-0 items-center my-auto">
                     {/* <div className="relative block h-16 w-16 md:hidden"> */}
                     <div className="relative block h-24 w-24">
-                      <Image
+                      {/* <Image
                        className='rounded-full'
                         src="/img/logo.jpg"
                         width={150}
                         height={150}
                         alt="Workflow"
                           priority
-                      />
+                      /> */}
                     </div>
                     {/* <div className="relative hidden md:block md:h-28 md:w-72 lg:h-24 lg:w-64">
                       <Image
@@ -250,3 +250,5 @@ export default function Nav() {
     </>
   )
 }
+
+

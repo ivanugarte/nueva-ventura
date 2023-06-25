@@ -4,7 +4,7 @@ const people = [
     name: 'Buena Ventura',
     role: 'Cual es nuetro Rol',
     imageUrl:
-      '/img/vino1.jpg',
+      '/img/logo.jpg',
     bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
     twitterUrl: '#',
     linkedinUrl: '#',

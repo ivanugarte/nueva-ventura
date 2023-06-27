@@ -11,7 +11,6 @@ export const Layout = ({ children }: { children: any }) => {
     <div className="fondoPantalla">
       <Whatsapp />
       <Image
-        // className='rounded-full'
         src="/img/logo.jpg"
         width={600}
         height={1250}
@@ -20,9 +19,9 @@ export const Layout = ({ children }: { children: any }) => {
       />
 
       {/* <Nav /> */}
-      {/* <Cards /> */}
-      {/* {children} */}
-      {/* <Footer /> */}
+      <Cards />
+      {children}
+      <Footer />
     </div>
   )
 }

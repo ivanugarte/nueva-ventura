@@ -7,12 +7,11 @@ import paisaje from "/img/paisaje.jpeg";
 export default function Home() {
   return (
     <>
-
-      <div className="fondoPantalla">
+      <div>
         <Layout>
           {/* <Slider deviceType="desktop" /> */}
           {/* <PanelSip /> */}
-          {/* <About /> */}
+          <About />
           {/* <Advantage /> */}
         </Layout>
       </div>

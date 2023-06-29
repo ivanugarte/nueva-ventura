@@ -9,7 +9,6 @@ import Image from 'next/image'
 export const Layout = ({ children }: { children: any }) => {
   return (
     <div>
-      <Whatsapp />
       <Image
         src="/img/logo.jpg"
         width={800}
@@ -17,8 +16,6 @@ export const Layout = ({ children }: { children: any }) => {
         alt="Workflow"
         priority
       />
-     
-
      <Image
         src="/img/fondo.jpeg"
         width={800}
@@ -28,7 +25,6 @@ export const Layout = ({ children }: { children: any }) => {
       />
       <Cards />
       {children}
-      <Footer />
       
     </div>
   )

@@ -10,22 +10,22 @@ export const Layout = ({ children }: { children: any }) => {
   return (
     <div>
       <Image
-        src="/img/logo.jpg"
+        src="/img/logobv.jpg"
         width={800}
         height={1000}
         alt="Workflow"
         priority
       />
-     <Image
+      <Image
         src="/img/fondo.jpeg"
         width={800}
-        height={1000}
+        height={1100}
         alt="Workflow"
         priority
       />
       <Cards />
       {children}
-      
+
     </div>
   )
 }

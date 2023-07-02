@@ -16,6 +16,14 @@ export const Layout = ({ children }: { children: any }) => {
         alt="Workflow"
         priority
       />
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ml-4">
+        ESPAÑOL
+      </button>
+      <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ml-4">
+        INGLES
+      </button> <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full ml-4">
+        FRANCES
+      </button>
       <Image
         src="/img/fondo.jpeg"
         width={800}
@@ -23,6 +31,7 @@ export const Layout = ({ children }: { children: any }) => {
         alt="Workflow"
         priority
       />
+      <Whatsapp />
       <Cards />
       {children}
 

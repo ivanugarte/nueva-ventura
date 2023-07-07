@@ -110,12 +110,19 @@ a {
   }
 }
 
-
-.fondoPantalla {
+body{
   background-image: url('/img/fondo.jpeg');
-  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: right top;
   background-attachment: fixed;
-  /* background-attachment: cover; */
+}
+
+.fondoLog {
+  background-image: url('/img/logobv.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1600px;
+  width: 390px;
+  text-align: center;
+  padding-top: 50px;   
 }

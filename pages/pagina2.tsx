@@ -6,10 +6,7 @@ export default function Home() {
     <>
       <div>
         <Layout>
-          {/* <Slider deviceType="desktop" /> */}
-          {/* <PanelSip /> */}
-          {/* <About /> */}
-          {/* <Advantage /> */}
+
         </Layout>
       </div>
     </>

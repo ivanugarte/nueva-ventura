@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <div>
         <h2 className="fixed fondoBlanco mt-80 text-center">
+
           En vinos Buenaventura hemos apostado por lo artesanal, rescatando el origen del vino hecho a mano, de manera orgánica y respetuosa. Con uvas seleccionadas del Valle del Itata, envejecidas en Roble Americano, logramos un ensamble Misión & Cinsault, con suave aroma y sabor, rico en taninos con astringencia moderada, llegando a los 13,5° alc%vol.
 
           Para mantener la escénica intacta de nuestro vino utilizamos un corcho (Diam) que permite la oxigenación y lenta maduración, complementado con un lacre color bermellón para certificar la calidad.

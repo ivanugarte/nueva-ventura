@@ -118,7 +118,7 @@ body{
   background-attachment: fixed;
   background-position: bottom;
   z-index: -1;  
-
+  position: fixed;
 }
 
 .fondoLog {
@@ -129,6 +129,7 @@ body{
   /* width: 390px; */
   text-align: center;
   padding-top: 50px; 
+  position: fixed;
 }
 
 .fondoBlanco {
@@ -137,5 +138,14 @@ body{
   background-size: contain;
   height: 800px;
   text-align: center;
-  padding-top: 50px; 
+  padding-top: 50px;
+  position: fixed;
+}
+.promocion {
+  background-image: url('/img/promocion.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* width: 390px; */
+  text-align: center;
+  position: fixed;
 }

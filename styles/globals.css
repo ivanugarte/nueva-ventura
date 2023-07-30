@@ -110,17 +110,7 @@ a {
   }
 }
 
-body{
-  /* background-image: url('/img/fondoRecortado.jpeg'); */
-  background-image: url('/img/fondoEntero.png');
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-attachment: fixed;
-  background-position: bottom;
-  z-index: -1;  
-  position: fixed;
-}
-
+  
 .fondoLog {
   background-image: url('/img/logobv.jpg');
   background-repeat: no-repeat;
@@ -145,7 +135,7 @@ body{
   background-image: url('/img/promocion.jpeg');
   background-repeat: no-repeat;
   background-size: contain;
-  /* width: 390px; */
+  background-position: center bottom;
   text-align: center;
   position: fixed;
 }

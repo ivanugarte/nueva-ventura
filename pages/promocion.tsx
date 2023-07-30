@@ -1,26 +1,31 @@
 import Link from "next/link";
 import Image from 'next/image'
 
-import { Layout } from "../components/layout/Layout";
-
 export default function Promocion() {
   return (
     <>
       <div className="">
-      <Image
+        {/* <Image */}
+        {/* <img src="src='/img/logobv.jpg'" alt=""
+          className='rounded shadow-slate-900'
+          height={700}
+          width={600}
+        /> */}
+         <Image
           className='rounded shadow-slate-900'
           src='/img/logobv.jpg'
           alt="Workflow"
           height={700}
-          width={600}
+          width={700}
           priority
         />
+
         <Image
           className='rounded shadow-slate-900'
           src='/img/promocion.jpeg'
           alt="Workflow"
           height={700}
-          width={500}
+          width={700}
           priority
         />
 
@@ -28,11 +33,11 @@ export default function Promocion() {
 
         </h2>
         <Link href={"/"}>
-        <button className="bg-violet-900 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded-full">
-          VOLVER
-        </button>
-      </Link>
-    </div >
+          <button className="bg-violet-900 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded-full">
+            VOLVER
+          </button>
+        </Link>
+      </div >
     </>
   )
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Button() {
     return (
         <>
-            <div className="mt-80">
+            {/* <div className="mt-80">
                 <Link href={"/menu"}>
                         <button className="bg-violet-900 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded-full ml-4">
                             ESPAÑOL
@@ -19,7 +19,7 @@ export default function Button() {
                             FRANCES
                         </button>
                 </Link>
-            </div>
+            </div> */}
         </>
     )
 }

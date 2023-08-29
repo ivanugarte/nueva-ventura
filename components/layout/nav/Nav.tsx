@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
-import Image from 'next/image'
 
 import navigations from './menusip.json'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
@@ -13,35 +12,13 @@ export default function Nav() {
 
   return (
     <>
-      <Disclosure as="nav" className="bg-white shadow fixed w-full z-[1010]">
+      <Disclosure as="nav" className="bg-cyan-600 shadow fixed w-full z-[1010]">
         {({ open }) => (
           <>
             <div className="navComponent mx-auto px-4 sm:px-6 lg:max-w-screen-xl md:max-w-7xl lg:px-8">
               <div className="flex h-28 justify-between">
                 <div className="flex">
-                  <div className="navLogo flex flex-shrink-0 items-center my-auto">
-                    {/* <div className="relative block h-16 w-16 md:hidden"> */}
-                    <div className="relative block h-24 w-24">
-                      {/* <Image
-                       className='rounded-full'
-                        src="/img/logo.jpg"
-                        width={150}
-                        height={150}
-                        alt="Workflow"
-                          priority
-                      /> */}
-                    </div>
-                    {/* <div className="relative hidden md:block md:h-28 md:w-72 lg:h-24 lg:w-64">
-                      <Image
-                        src="/img/bluechipsnews_light.svg"
-                        alt="Workflow"
-                        layout="fill"
-                        objectFit="contain"
-                        priority
-                      />
-                    </div> */}
-                  </div>
-                  <div className="navDesktopItems hidden pl-4 sm:ml-6 sm:flex md:space-x-4 md:pl-4 lg:space-x-12 lg:pl-20 xl:pl-32">
+                              <div className="navDesktopItems hidden pl-4 sm:ml-6 sm:flex md:space-x-4 md:pl-4 lg:space-x-12 lg:pl-20 xl:pl-32">
                     {navigations &&
                       navigations.length > 0 &&
                       navigations.map((menu) => {
@@ -73,7 +50,7 @@ export default function Nav() {
                                   >
                                     {({ open }) => (
                                       <>
-                                        <Menu.Button className="text-xs font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700 md:text-sm">
+                                        <Menu.Button className="text-xs font-medium text-back hover:border-gray-300 hover:text-gray-700 md:text-sm">
                                           {(menu.name)}
                                           {open ? (
                                             <ChevronUpIcon
@@ -113,7 +90,7 @@ export default function Nav() {
                                                             <a
                                                               className={`block border-l-8 py-2 pl-3 pr-4 text-base font-medium ${router.pathname ===
                                                                 subMenu.href
-                                                                ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
+                                                                ? 'border-black bg-indigo-50 text-indigo-700'
                                                                 : 'border-transparent text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700'
                                                                 }`}
                                                             >
@@ -250,5 +227,3 @@ export default function Nav() {
     </>
   )
 }
-
-

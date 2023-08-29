@@ -89,7 +89,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -97,7 +97,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 a {
   color: inherit;
@@ -110,9 +110,30 @@ a {
   }
 }
 
+.fondoRecortado {
+  background-image: url('/img/.fondoRecortado.jpeg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 800px;
+  /* width: 390px; */
+  text-align: center;
+  padding-top: 50px; 
+  position: fixed;
+}
   
+/* .fondoLog { */
+  /* background-image: url('/img/logobv.jpg'); */
+  /* background-repeat: no-repeat;
+  background-size: contain;
+  height:  1800px; */
+  /* width: 390px; */
+  /* text-align: center;
+  padding-top: 50px; 
+  position: fixed; */
+/* } */
+
 .fondoLog {
-  background-image: url('/img/logobv.jpg');
+  background-image: url('/img/fondo.jpeg');
   background-repeat: no-repeat;
   background-size: contain;
   height: 800px;
@@ -122,12 +143,13 @@ a {
   position: fixed;
 }
 
+
 .fondoBlanco {
   background-color: white;
   background-repeat: no-repeat;
   background-size: contain;
   height: 800px;
-  text-align: center;
+  text-align: center; 
   padding-top: 50px;
   position: fixed;
 }

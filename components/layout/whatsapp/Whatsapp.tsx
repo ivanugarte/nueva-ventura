@@ -6,7 +6,7 @@ export default function Whatsapp() {
     <>
         <div
           id="whatsapp"
-          className="block fixed w-16 h-16 right-2 bottom-2.5 z-10"
+          className="block fixed w-20 h-36 right-2 bottom-2.5 z-10"
         >
           <div>
             <a
@@ -22,6 +22,34 @@ export default function Whatsapp() {
                 height="50"
               />
             </a>
+            <a
+            className="pt-28"
+              href="https://twitter.com/home"
+              target="_SEJ"
+              rel="noreferrer"
+            >
+              <Image
+                src="/img/Twitter.png"
+                priority
+                alt="..."
+                width="50"
+                height="50"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/buenaventura_2022/?hl=es-la"
+              target="_SEJ"
+              rel="noreferrer"
+            >
+              <Image
+                src="/img/Instagram.png"
+                priority
+                alt="..."
+                width="50"
+                height="50"
+              />
+            </a>
+  
           </div>
         </div>
     </>

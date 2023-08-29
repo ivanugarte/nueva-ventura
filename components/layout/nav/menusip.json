@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Home",
+    "name": "VINOS",
     "href": "/",
     "slug": "",
     "parentId": null,
@@ -11,8 +11,8 @@
     "children": [
       {
         "id": 2,
-        "name": "Quiénes somos ",
-        "href": "#about",
+        "name": "PROMOS",
+        "href": "/",
         "slug": "",
         "parentId": 1,
         "active": true,
@@ -22,7 +22,7 @@
       },
       {
         "id": 3,
-        "name": "Que es un Panel Sip",
+        "name": "FOTOS",
         "href": "#panelsip",
         "slug": "",
         "parentId": 1,
@@ -33,7 +33,7 @@
       },
       {
         "id": 4,
-        "name": "Ventajas",
+        "name": "ETIQUETAS",
         "href": "#advantage",
         "slug": "",
         "parentId": 1,
@@ -46,7 +46,7 @@
   },
   {
     "id": 5,
-    "name": "Quien somos",
+    "name": "PROMOS",
     "href": "/",
     "slug": "",
     "parentId": null,
@@ -91,7 +91,7 @@
   },
   {
     "id": 9,
-    "name": "Vinos",
+    "name": "FOTOS",
     "href": "/",
     "slug": "",
     "parentId": null,
@@ -109,23 +109,25 @@
         "activeNavbar": true,
         "activeFooter": true,
         "children": []
-      },
+      }
+    ]
+  },
+
+  {
+    "id": 10,
+    "name": "ETIQUETAS",
+    "href": "/",
+    "slug": "",
+    "parentId": null,
+    "active": true,
+    "activeNavbar": true,
+    "activeFooter": true,
+    "children": [
       {
-        "id": 11,
-        "name": "Panel B",
-        "href": "/modelob",
-        "slug": "modelob",
-        "parentId": 3,
-        "active": true,
-        "activeNavbar": true,
-        "activeFooter": true,
-        "children": []
-      },
-      {
-        "id": 12,
-        "name": "Panel C",
-        "href": "/modeloc",
-        "slug": "modeloc",
+        "id": 10,
+        "name": "Panel A",
+        "href": "/panela",
+        "slug": "",
         "parentId": 3,
         "active": true,
         "activeNavbar": true,

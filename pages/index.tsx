@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <Layout />
+        <Layout children={undefined} />
       </div>
     </>
   )

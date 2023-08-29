@@ -15,9 +15,9 @@ export default function Promocion() {
           className='rounded shadow-slate-900'
           src='/img/logobv.jpg'
           alt="Workflow"
-          height={700}
-          width={700}
-          priority
+          // height={700}
+          // width={700}
+           // priority
         />
 
         <Image
@@ -29,11 +29,8 @@ export default function Promocion() {
           priority
         />
 
-        <h2 className="fixed mt-80 text-center promocion">
-
-        </h2>
         <Link href={"/"}>
-          <button className="bg-violet-900 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded-full">
+          <button className="bg-violet-900 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded-full mb-8 ">
             VOLVER
           </button>
         </Link>

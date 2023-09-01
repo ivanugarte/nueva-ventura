@@ -12,7 +12,7 @@ export default function Nav() {
 
   return (
     <>
-      <Disclosure as="nav" className="bg-cyan-600 shadow fixed w-full z-[1010]">
+      <Disclosure as="nav" className="bg-indigo-400 shadow fixed w-full z-[1010]">
         {({ open }) => (
           <>
             <div className="navComponent mx-auto px-4 sm:px-6 lg:max-w-screen-xl md:max-w-7xl lg:px-8">

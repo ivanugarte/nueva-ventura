@@ -14,7 +14,7 @@ export const Layout = ( children :any) => {
       <Nav />
       {/* <di v className="fondoLog">sdfsdf</div> */}
 
-        <Image className="mt-40 fixed " 
+        <Image className="mt-20 fixed " 
           src="/img/fondo.jpeg"
           alt="Workflow"
           height={1200}
